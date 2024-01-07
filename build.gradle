@@ -1,0 +1,10 @@
+task extract8025(type: Copy) {
+    from zipTree("8025.zip")
+    into "8025"
+}
+
+task extract8024(type: Copy) {
+    from zipTree("8024.zip")
+    into "8024"
+}
+
